@@ -1,0 +1,12 @@
+[package]
+name = "place_insert"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+tokio = { version = "0.2", features = ["full"] }
+tokio-postgres = { version="0.5.1", features=["with-chrono-0_4"] }
+chrono = "0.4"
